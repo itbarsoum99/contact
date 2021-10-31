@@ -12,7 +12,7 @@ struct ProfileRow: View {
         VStack  {
             HStack  {
                 VStack (alignment: .leading) {
-                    Text("Shani Nunoz")
+                    Text("Aiza Munir")
                         .font(.title)
                         .fontWeight(.heavy)
                     Text("Architect")

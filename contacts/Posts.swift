@@ -11,7 +11,7 @@ struct Posts: View {
     var body: some View {
         VStack (alignment: .leading) {
             HStack {
-                Text("Shani Nunoz")
+                Text("Aiza Munir")
                     .font(.title3)
                     .fontWeight(.bold)
                 Text("10/31/2021")
@@ -34,7 +34,7 @@ struct Posts: View {
         
         VStack (alignment: .leading) {
             HStack {
-                Text("Shani Nunoz")
+                Text("Aiza Munir")
                     .font(.title3)
                     .fontWeight(.bold)
                 Text("10/30/2021")
@@ -53,7 +53,7 @@ struct Posts: View {
         
         VStack (alignment: .leading) {
             HStack {
-                Text("Shani Nunoz")
+                Text("Aiza Munir")
                     .font(.title3)
                     .fontWeight(.bold)
                 Text("10/28/2021")
@@ -71,7 +71,7 @@ struct Posts: View {
         .background(Color(hue: 0.532, saturation: 0.663, brightness: 0.186))
         
         VStack (alignment: .leading) {
-            Text("Reposted by Shani Nunoz")
+            Text("Reposted by Aiza Munir")
                 .font(.subheadline)
                 .padding(.horizontal)
             HStack {
@@ -98,7 +98,7 @@ struct Posts: View {
         
         VStack (alignment: .leading) {
             HStack {
-                Text("Shani Nunoz")
+                Text("Aiza Munir")
                     .font(.title3)
                     .fontWeight(.bold)
                 Text("10/22/2021")

@@ -10,20 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 
-        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Container@*/VStack/*@END_MENU_TOKEN@*/ {
-            VStack {
-                //BannerImage()
-                //ProfilePicture()
-                ProfileRow()
-                //Posts()
-            }
+        ScrollView {
             
-            .foregroundColor(Color(red: 0.9372549019607843, green: 0.9372549019607843, blue: 0.9372549019607843))
+            HStack {
+                ImageView()
+                    .padding(.horizontal, 10)
+                Spacer()
+            }
+            ProfileRow()
+            Divider()
+                .frame(height: 2)
+                .background(.gray)
+            Posts()
         }
+        
+            .foregroundColor(Color(red: 0.9372549019607843, green: 0.9372549019607843, blue: 0.9372549019607843))
+        
         .frame(maxHeight: .infinity)
         .background(Color(hue: 0.532, saturation: 0.658, brightness: 0.083))
-
-
     }
    
 }

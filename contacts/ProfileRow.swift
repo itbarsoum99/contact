@@ -9,16 +9,16 @@ import SwiftUI
 
 struct ProfileRow: View {
     var body: some View {
-        VStack {
-            HStack {
+        VStack  {
+            HStack  {
                 VStack (alignment: .leading) {
-                    Text("Jane Doe")
+                    Text("Shani Nunoz")
                         .font(.title)
                         .fontWeight(.heavy)
                     Text("Architect")
                         .font(.title3)
                 }
-                .padding()
+                .padding(.leading)
                 Spacer()
                 HStack (alignment: .top) {
                     Text ("Follow")
@@ -38,9 +38,9 @@ struct ProfileRow: View {
 
             }
             .padding(.bottom, -10.0)
-            Text ("Architect based in Baltimore, Md. | New York Times Bestselling Author | Running for U.S. Congress #ForThePeople")
+            Text ("Based in Baltimore, Md. | New York Times Bestselling Author | Running for U.S. Congress #ForThePeople")
                 .fontWeight(.light)
-                .padding(.horizontal)
+                .padding(.leading, 8.0)
                 
         }
         
